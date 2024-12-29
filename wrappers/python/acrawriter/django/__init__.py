@@ -15,7 +15,7 @@
 from django.core import validators
 from django.db import models
 from django import forms
-from django.utils import six
+import six
 from django.conf import settings
 from django.utils.translation import ugettext_lazy as _
 import acrawriter
